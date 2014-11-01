@@ -14,7 +14,7 @@
 
 <link rel="icon" href='<c:url value="/resources/favicon.ico"/>' >
 
-<title>Signin Template for Bootstrap</title>
+<title>Login</title>
 
 <link href='<c:url value="/resources/css/bootstrap.min.css"/>' rel="stylesheet">
 <link href='<c:url value="/resources/css/common/login.css"/>' rel="stylesheet">
@@ -24,7 +24,7 @@
 	<div class="container">
 		<form class="form-signin" role="form">
 			<h2 class="form-signin-heading">Please sign in</h2>
-			<input type="email" class="form-control" placeholder="Email address" required autofocus> 
+			<input type="email" class="form-control" placeholder="Email address or User ID" required autofocus> 
 			<input type="password" class="form-control" placeholder="Password" required>
 			<div class="checkbox">
 				<label>
