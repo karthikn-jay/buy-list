@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
-
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,12 +12,12 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<link rel="icon" href="../../favicon.ico">
+<link rel="icon" href='<c:url value="/resources/favicon.ico"/>' >
 
 <title>Signin Template for Bootstrap</title>
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/common/login.css" rel="stylesheet">
+<link href='<c:url value="/resources/css/bootstrap.min.css"/>' rel="stylesheet">
+<link href='<c:url value="/resources/css/common/login.css"/>' rel="stylesheet">
 
 </head>
 <body>
